@@ -12,11 +12,11 @@ const Pages = ({ user }) => {
         <Route exact path="/">
           <Me user={user} />
         </Route>
-        <Route path="/projects">
-          <Projects user={user} />
-        </Route>
         <Route path="/work">
           <Work user={user} />
+        </Route>
+        <Route path="/projects">
+          <Projects user={user} />
         </Route>
         <Route path="/education">
           <Education user={user} />

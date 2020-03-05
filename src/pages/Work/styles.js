@@ -15,3 +15,8 @@ export const JobTitle = styled.p`
   font-weight: bold;
   display: inline-block;
 `
+
+export const WorkHighlightList = styled.li`
+    list-style-type: circle;
+    line-height:150%;
+`
