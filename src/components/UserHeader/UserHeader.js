@@ -21,6 +21,7 @@ const UserHeader = ({user}) => {
                 </div>
             </Header>
             <div>
+                <p>Check</p>
                 <ViewResumeLink
                     href={`https://cb.lk/cvpiyush`}
                     target="_blank"
