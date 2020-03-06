@@ -4,7 +4,7 @@
     "picture": "https://avatars2.githubusercontent.com/u/20954567?v=4",
     "label": "AWS Certified Developer | Software Engineer at Cuenca | Online Instructor",
     "headline": "Passionate about solving complex problems and designing systems leveraging my skills in Computer Programming.",
-    "summary": null,
+    "summary": "A Bachelor’s degree in Computer Science, AWS Certification for Developer Associate and hands-on experience creating, implementing and scaling software applications. I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me. A few more points that I would like to highlight that would enable me to contribute to your bottom line are:\n \n- Highly skilled in designing, testing, and developing software \n- Thorough understanding of data structures and algorithms \n- Knowledgeable of AWS best practices Hands-on software troubleshooting experience \n- Proven track record of proper documentation for future maintenance and upgrades",
     "website": null,
     "blog": null,
     "yearsOfExperience": 2,
@@ -83,9 +83,26 @@
   ],
   "projects": [
     {
+      "name": "Zipper",
+      "displayName": "Zipper",
+      "summary": "Huffman Compressor for lossless compression.  Compress 1MB txt file to 600KB in 1.5s.  Decompress in 1.8s",
+      "website": "",
+      "githubUrl": "https://github.com/piyush0/Zipper",
+      "primaryLanguage": "Java",
+      "languages": [
+        "Java"
+      ],
+      "libraries": [
+      ],
+      "images": [
+      ],
+      "videos": [
+      ]
+    },
+    {
       "name": "Snippets",
       "displayName": "Snippets",
-      "summary": "Cross platform desktop app made in Electron.js to keep code snippets together.  Shortcuts for quick access,sorting and searching through the snippets.  Syntax highlighting by ace editor.",
+      "summary": "Cross platform desktop app made in Electron.js to keep code snippets together.  Shortcuts for quick access, sorting and searching through the snippets.  Syntax highlighting by ace editor.",
       "website": "",
       "githubUrl": "https://github.com/coding-blocks/shortlr_android_app",
       "primaryLanguage": "Java",
@@ -94,44 +111,10 @@
         "Android"
       ],
       "libraries": [
-
       ],
       "images": [
-        {
-          "resolutions": {
-            "micro": {
-              "url": "https://project-images.gitconnectedcontent.com/73b16d15-0a5f-4488-8156-8dcc4b2f714c-micro",
-              "size": 489,
-              "width": 32,
-              "height": 24
-            },
-            "thumbnail": {
-              "url": "https://project-images.gitconnectedcontent.com/73b16d15-0a5f-4488-8156-8dcc4b2f714c-thumbnail",
-              "size": 16459,
-              "width": 224,
-              "height": 168
-            },
-            "mobile": {
-              "url": "https://project-images.gitconnectedcontent.com/73b16d15-0a5f-4488-8156-8dcc4b2f714c-mobile",
-              "size": 92979,
-              "width": 600,
-              "height": 450
-            },
-            "desktop": {
-              "url": "https://project-images.gitconnectedcontent.com/73b16d15-0a5f-4488-8156-8dcc4b2f714c-desktop",
-              "size": 289935,
-              "width": 1200,
-              "height": 900
-            }
-          }
-        }
       ],
       "videos": [
-        {
-          "url": "https://www.youtube.com/watch?v=n9UtOc1ebIA",
-          "source": "youtube",
-          "sourceId": "n9UtOc1ebIA"
-        }
       ]
     }
   ],
@@ -267,12 +250,24 @@
         "month": null
       },
       "description": "",
-      "activities": "Student Lead at Developer Student Club, which is a Google Developers Program for university students to help build mobile and web development skills and knowledge.\n\n<img src=\"https://drive.google.com/uc?id=1hK9G_MYTw1oujEYxRE_NVlM2_MQGM_JV\">",
+      "activities": "Student Lead at Developer Student Club, which is a Google Developers Program for university students to help build mobile and web development skills and knowledge.",
       "gpa": "CGPA 7.9",
       "courses": [
+      ],
+      "images": [
       ]
     }
   ],
+  "courses": {
+    "online": [
+      {
+        "name": "AWS",
+        "platform": "Udemy",
+        "link": "https://google.com",
+        "certificate": "https://youtube.com"
+      }
+    ]
+  },
   "other": [
     {
       "organization": "Self Employed",
@@ -307,6 +302,9 @@
     }
   ],
   "languages": [
+    "English",
+    "Spanish",
+    "Hindi"
   ],
   "interests": [
   ],

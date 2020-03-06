@@ -1,8 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import { SectionTitle, Paragraph } from '../../styles';
-import { EducationItem, Institution, Degree, Activity } from './styles';
-import { Document } from 'react-pdf';
+import { EducationItem, Institution, Degree, Activity, Image } from './styles';
 
 const Education = ({ user }) => {
   return (
@@ -25,7 +24,10 @@ const Education = ({ user }) => {
               <Paragraph>{education.description.replace('\n\n', '\n')}</Paragraph>
                 <Paragraph>{education.gpa}</Paragraph>
                 <Activity>Activities</Activity>
-                <Paragraph><div dangerouslySetInnerHTML={{__html: education.activities}}></div></Paragraph>
+                <Paragraph>{education.activities}</Paragraph>
+                {education.images.map((image) => (
+                    <Image src={image}></Image>
+                ))}
 
             </EducationItem>
           ))}

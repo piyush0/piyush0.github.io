@@ -19,3 +19,8 @@ export const Degree = styled.p`
   font-weight: bold;
   display: inline-block;
 `
+
+export const Image = styled.img`
+    width: 300px;
+    height: 200px;
+`
