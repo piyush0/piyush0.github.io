@@ -4,7 +4,6 @@ import {SectionTitle, Paragraph, Pill} from '../../styles';
 import {ProfileLink} from './styles';
 
 const Me = ({user}) => {
-    const reducedList = user.basics.profiles.slice(1);
     return (
         <Layout user={user}>
             <div>
@@ -23,7 +22,7 @@ const Me = ({user}) => {
                 <SectionTitle>Profiles</SectionTitle>
                 <ul>
 
-                    {reducedList.map((profile, i) => (
+                    {user.basics.profiles.map((profile, i) => (
                         <ProfileLink key={profile.network}>
                             {i !== 0 && ' | '}
                             <a href={profile.url} target="_blank" rel="noreferrer noopener">

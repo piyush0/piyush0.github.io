@@ -1,21 +1,22 @@
 import styled from 'styled-components'
 import { white } from '@carbon/colors'
 
-export const EducationItem = styled.li`
+export const WorkItem = styled.li`
   margin-top: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid ${white};
 `
 
-export const Institution = styled.h4`
+export const WorkTitle = styled.h4`
   font-weight: bold;
 `
 
-export const Activity = styled.h5`
-  font-weight: bold;
-`
-
-export const Degree = styled.p`
+export const JobTitle = styled.p`
   font-weight: bold;
   display: inline-block;
+`
+
+export const WorkHighlightList = styled.li`
+    list-style-type: circle;
+    line-height:150%;
 `

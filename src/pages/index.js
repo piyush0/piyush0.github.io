@@ -4,6 +4,7 @@ import Me from './Me';
 import Projects from './Projects';
 import Work from './Work';
 import Education from './Education';
+import Other from './Other';
 
 const Pages = ({ user }) => {
   return (
@@ -20,6 +21,9 @@ const Pages = ({ user }) => {
         </Route>
         <Route path="/education">
           <Education user={user} />
+        </Route>
+        <Route path="/other">
+          <Other user={user} />
         </Route>
       </Switch>
     </Router>

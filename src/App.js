@@ -1,21 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Pages from './pages';
+import user from './data';
 
 function App() {
-  const [user, setUser] = useState(null);
-  useEffect(() => {
-    fetch('https://gitconnected.com/v1/portfolio/piyush0')
-      .then(res => res.json())
-      .then(user => {
-        setUser(user);
-      });
-  }, []);
+    if (!user) {
+        return <div/>;
+    }
 
-  if (!user) {
-    return <div />;
-  }
-
-  return <Pages user={user} />;
+    return <Pages user={user}/>;
 }
 
 export default App;
