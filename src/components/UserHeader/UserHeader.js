@@ -13,7 +13,7 @@ const UserHeader = ({user}) => {
                 <Image src={user.basics.picture}/>
                 <div>
                     <h2>{user.basics.name}</h2>
-                    <h5>{user.basics.label}</h5>
+                    <h5 dangerouslySetInnerHTML={{__html: user.basics.label}}></h5>
                     <p>{user.basics.region}</p>
                     <p>{user.basics.phone}</p>
                     <p><a href={'mailto:' + user.basics.email} target="_top">{user.basics.email}</a></p>
@@ -21,7 +21,6 @@ const UserHeader = ({user}) => {
                 </div>
             </Header>
             <div>
-                <p>Check</p>
                 <ViewResumeLink
                     href={`https://cb.lk/cvpiyush`}
                     target="_blank"
