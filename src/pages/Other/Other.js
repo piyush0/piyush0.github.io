@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import {SectionTitle, Paragraph} from '../../styles';
+import {SectionTitle, Paragraph, Pill} from '../../styles';
 import {WorkItem, WorkTitle, JobTitle} from './styles';
 
 const Work = ({user}) => {
@@ -27,13 +27,28 @@ const Work = ({user}) => {
                             </div>
                             <Paragraph>{work.summary}</Paragraph>
 
-                                {work.highlights.map((highlight) => (
-                                    <li dangerouslySetInnerHTML={{__html: highlight}}></li>
-                                ))}
+                            {work.highlights.map((highlight) => (
+                                <li dangerouslySetInnerHTML={{__html: highlight}}></li>
+                            ))}
 
                         </WorkItem>
                     ))}
                 </ul>
+            </div>
+
+
+            <SectionTitle>Languages</SectionTitle>
+            <div>
+                {user.languages.map(language => (
+                    <Pill key={language}>{language}</Pill>
+                ))}
+            </div>
+
+            <SectionTitle>Interests</SectionTitle>
+            <div>
+                {user.interests.map(interest => (
+                    <Pill key={interest}>{interest}</Pill>
+                ))}
             </div>
         </Layout>
     );
