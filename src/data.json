@@ -261,10 +261,40 @@
   "courses": {
     "online": [
       {
-        "name": "AWS",
+        "title": "React - The Complete Guide",
         "platform": "Udemy",
-        "link": "https://google.com",
-        "certificate": "https://youtube.com"
+        "issue_date": "May 2020",
+        "certificate": "https://www.udemy.com/certificate/UC-755b2959-8ae0-408b-9f47-dcafbcf1c6b7/"
+      },
+      {
+        "title": "Ultimate AWS Certified Developer Associate",
+        "platform": "Udemy",
+        "issue_date": "Oct 2019",
+        "certificate": "https://www.udemy.com/certificate/UC-UVO3XANA/"
+      },
+      {
+        "title": "Introduction to Complex Analysis",
+        "platform": "Coursera",
+        "issue_date": "Nov 2018",
+        "certificate": "https://www.coursera.org/account/accomplishments/verify/LZ5N5WHBU2FV"
+      },
+      {
+        "title": "Social and Economic Networks: Models and Analysis",
+        "platform": "Coursera",
+        "issue_date": "Oct 2018",
+        "certificate": "https://www.coursera.org/account/accomplishments/verify/CNLR7BTBVCSB"
+      },
+      {
+        "title": "Cryptography I",
+        "platform": "Coursera",
+        "issue_date": "Mar 2018",
+        "certificate": "https://www.coursera.org/account/accomplishments/verify/X3D88HGGDDWH"
+      },
+      {
+        "title": "Game Theory",
+        "platform": "Coursera",
+        "issue_date": "Mar 2018",
+        "certificate": "https://www.coursera.org/account/accomplishments/verify/JKGY33NL5K8X"
       }
     ]
   },
