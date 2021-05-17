@@ -15,8 +15,14 @@ const Projects = ({user}) => {
                             <p>{project.summary}</p>
 
                             <PillContainer>
-                                <Pill key='github'><PillLink target='_blank' rel='noopener noreferrer'
-                                                             href={project.githubUrl}>Github</PillLink></Pill>
+                                {project.website ?
+                                    <Pill key='website'><PillLink target='_blank' rel='noopener noreferrer'
+                                                                  href={project.website}>Website</PillLink></Pill> : null}
+
+                                {project.githubUrl ?
+                                    <Pill key='github'><PillLink target='_blank' rel='noopener noreferrer'
+                                                                 href={project.githubUrl}>Github</PillLink></Pill> : null}
+
 
                             </PillContainer>
                         </ProjectItem>

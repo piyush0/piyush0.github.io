@@ -83,6 +83,23 @@
   ],
   "projects": [
     {
+      "name": "Amazon Clone",
+      "displayName": "Amazon Clone",
+      "summary": "Developed an amazon clone with React.js",
+      "website": "https://amzn-95aa2.web.app/",
+      "githubUrl": "",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "libraries": [
+      ],
+      "images": [
+      ],
+      "videos": [
+      ]
+    },
+    {
       "name": "Zipper",
       "displayName": "Zipper",
       "summary": "Huffman Compressor for lossless compression.  Compress 1MB txt file to 600KB in 1.5s.  Decompress in 1.8s",
@@ -120,14 +137,35 @@
   ],
   "work": [
     {
+      "company": "Pangea Money Transfer",
+      "position": "Software Engineer",
+      "website": "https://pangeamoneytransfer.com/",
+      "location": "Remote",
+      "summary": "Technologies: React.js, Redux, Jest, CSS, Webpack, Python, AWS Lambda, Chalice",
+      "isCurrentRole": true,
+      "startDate": "2019-08-01",
+      "endDate": "",
+      "start": {
+        "year": 2020,
+        "month": 8
+      },
+      "end": {
+      },
+      "highlights": [
+        "Frontend: Lead the design and development of a high performance customer facing application using React.js",
+        "Product: Worked closely with Product and Marketing teams to build an end-to-end solution for an effective SMS solution for communication with clients.",
+        "Agile: Worked in Agile methodologies using JIRA for incremental development to deliver better application."
+      ]
+    },
+    {
       "company": "Cuenca",
       "position": "Software Engineer",
       "website": "https://cuenca.com/",
       "location": "Mexico City",
       "summary": "Technologies: AWS Lambda, Elasticsearch, SNS, ELB, Client VPN, EC2, IAM, DynamoDB, Flask, Python",
-      "isCurrentRole": true,
+      "isCurrentRole": false,
       "startDate": "2019-12-01",
-      "endDate": "",
+      "endDate": "2020-08-01",
       "start": {
         "year": 2019,
         "month": 12
