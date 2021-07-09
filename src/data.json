@@ -33,7 +33,15 @@
   },
   "skills": [
     {
-      "name": "AWS",
+      "name": "JavaScript",
+      "level": "",
+      "rating": 0,
+      "yearsOfExperience": null,
+      "keywords": [
+      ]
+    },
+    {
+      "name": "React",
       "level": "",
       "rating": 0,
       "yearsOfExperience": null,
@@ -42,6 +50,14 @@
     },
     {
       "name": "Python",
+      "level": "",
+      "rating": 0,
+      "yearsOfExperience": null,
+      "keywords": [
+      ]
+    },
+    {
+      "name": "AWS",
       "level": "",
       "rating": 0,
       "yearsOfExperience": null,
@@ -58,14 +74,6 @@
     },
     {
       "name": "Node.js",
-      "level": "",
-      "rating": 0,
-      "yearsOfExperience": null,
-      "keywords": [
-      ]
-    },
-    {
-      "name": "React",
       "level": "",
       "rating": 0,
       "yearsOfExperience": null,
